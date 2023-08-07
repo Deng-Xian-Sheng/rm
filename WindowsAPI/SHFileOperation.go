@@ -1,3 +1,5 @@
+// +build windows
+
 package WindowsAPI
 
 import "syscall"
