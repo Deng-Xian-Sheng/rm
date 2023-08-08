@@ -1,8 +1,10 @@
-// +build windows
-
+//go build:windows
 package WindowsAPI
 
-import "syscall"
+import (
+	"syscall"
+	"unsafe"
+)
 
 // 定义 SHFILEOPSTRUCT 结构体
 type SHFILEOPSTRUCT struct {
